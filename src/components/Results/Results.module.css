@@ -1,0 +1,45 @@
+.Results {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px 10px;
+  justify-content: center;
+}
+
+.Result {
+  background-color: rgba(7, 235, 26, 0.5);
+  border-radius: 10px;
+}
+
+.Title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+span {
+  font-size: 4em;
+  margin: 0 3rem;
+}
+
+button {
+  text-align: center;
+  font-size: 21px;
+  border-radius: 15px;
+  margin: 0 auto;
+  padding: 16px 24px;
+  cursor: pointer;
+  background-color: #0c6135;
+  color: #fff;
+}
+
+button:hover {
+  transform: translateX(3px);
+}
+
+button.ResetBtn {
+  margin: 0;
+  background-color: #e04444;
+}
